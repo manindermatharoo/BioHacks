@@ -27,7 +27,7 @@ void setup() {
      seq.getIndex(i).setPos(startX, startY); 
    }
    else {
-     seq.getIndex(i).setPos(startX + rad*2*i, startY); 
+     seq.getIndex(i).setPos(startX + rad*1.25*i, startY); 
    }
  }
 }
